@@ -1,0 +1,40 @@
+type Query {
+    getGames : [GameOutputDto]
+}
+
+type Mutation {
+    addGame(gameInputDto : GameInputDto) : GameOutputDto
+    getTicket(ticketInputDto : TicketInputDto) : TicketOutputDto
+    updateTicket(id : String) : Boolean
+}
+
+
+input TicketInputDto{
+    price : Float,
+    gameId : String
+}
+
+input GameInputDto{
+    dateAndTime : String,
+    stadium : String,
+    team1 : String
+    team2 : String,
+    availableTickets : Int
+}
+
+type GameOutputDto {
+    id : ID,
+    ref : String,
+    dateAndTime : String,
+    stadium : String,
+    team1 : String,
+    team2 : String
+}
+
+type TicketOutputDto {
+    id : String,
+    price : String,
+    state : String,
+    ref : String,
+    gameOutputDto : GameOutputDto
+}

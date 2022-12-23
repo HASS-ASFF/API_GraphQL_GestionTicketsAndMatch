@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GamesandTicketsServices/GamesandTicketsServices/GamesandTicketsServices.iml" filepath="$PROJECT_DIR$/GamesandTicketsServices/GamesandTicketsServices/GamesandTicketsServices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GestionGamesandTickets.iml" filepath="$PROJECT_DIR$/GestionGamesandTickets.iml" />
+    </modules>
+  </component>
+</project>
